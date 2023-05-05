@@ -14,10 +14,12 @@ A selection menu will then pop-up, select the ZIP file you downloaded a click 'C
 ![](https://github.com/elliotth30/Reliable-HeartRate_SEN0213/blob/main/README_Images/_Select_ZIP_1.png)
 ![](https://github.com/elliotth30/Reliable-HeartRate_SEN0213/blob/main/README_Images/_Select_ZIP_2.png)
 
-Then download the code as a zip from this repository or click the following link (https://github.com/elliotth30/Reliable-HeartRate_SEN0213/archive/refs/heads/main.zip) and extract it into a folder, then open in Arduino IDE - before running like any other Arduino code (Detailed Instructions Below)
+3. Now that your Library in installed you need to download the example code as a zip from this repository or click the following link (https://github.com/elliotth30/Reliable-HeartRate_SEN0213/archive/refs/heads/main.zip) and extract it into a folder, then open in Arduino IDE - before running like any other Arduino code (Detailed Instructions Below)
 
-
-
+3a. Open the file in the Arduino IDE.
+3b. Then Select your board and port along the top.
+3c. Once selected click the 'Upload' code button.
+3d. Now you can open the 'Serial Monitor' to see the results coming through. If you have not set up your sensor with your Arduino or alternative microcontroller you can then follow the instructions in the 'How to connect Section' - and press the reset button on your Arduino to start seeing your results.
 
 # How to Connect
 Full instructions can be found at https://wiki.dfrobot.com/Heart_Rate_Monitor_Sensor_SKU__SEN0213, However this diagram on the site shows how to connect the board to an Arduino Uno through the following connection.
